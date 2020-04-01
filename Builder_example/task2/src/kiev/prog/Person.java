@@ -63,7 +63,7 @@ public class Person {
     @Override
     public String toString() {
         String personString = String.format("Person -> First Name: %s\n Last name: %s\n Age: %s\n City: %s\n Phone: %s\n " +
-                "Profession %s", this.firstName, this.lastName, this.age, this.city, this.phone, this.profession);
+                "Profession: %s", this.firstName, this.lastName, this.age, this.city, this.phone, this.profession);
         return personString;
     }
 }
